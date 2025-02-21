@@ -1,0 +1,82 @@
+/* Styles the body of the page */
+body {
+    background-color:antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Styles the header of the page */
+h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    margin: 25px;  
+}
+
+/* Styles the input field */
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: auto;
+    font-size: 30px;
+}
+
+/* Styles the submit button */
+button.submit {
+    padding: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+/* Styles the reset button */
+button.reset {
+    padding: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+}
+/* Adds hover effect to both buttons */
+button.submit:hover {
+    background-color: #53b172;
+}
+button.reset:hover {
+    background-color: #c53939;
+}
+
+/* Styles the paragraph */
+p1 {
+    background-color: rgb(138, 236, 63);
+    border-radius: 5px;
+    width: auto;
+    font-family: sans-serif;
+    font-size: 35px;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+/* Styles the h2 */
+h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+/* Styles the text in p2 */
+.text {
+    position: fixed, center;
+    width: auto;
+    max-width: fit-content;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
